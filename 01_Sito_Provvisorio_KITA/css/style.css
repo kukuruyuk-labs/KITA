@@ -18,3 +18,29 @@ img{
     color:#a9741f;
     font-family:Georgia, serif;
 }
+
+
+/* Contenitore della homepage */
+.homepage-container {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Immagine responsive */
+.homepage-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Area cliccabile dell'indirizzo email */
+.email-link {
+    position: absolute;
+    left: 33.2%;
+    top: 75.5%;
+    width: 21.5%;
+    height: 2.8%;
+    display: block;
+}
